@@ -27,7 +27,10 @@ driver.get(url)
 
 WebDriverWait(driver,5).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input.nav-search-input"))).send_keys("teclado")
 
-time.sleep(1)
+time.sleep(10)
+
+#se realiza un cambio
+
 #clase = "absolute w-100 h-100 z-1 hide-sibling-opacity"
 
 # Ingresa texto en el campo de entrada
