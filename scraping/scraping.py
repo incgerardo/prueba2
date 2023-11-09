@@ -29,7 +29,7 @@ WebDriverWait(driver,5).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "inpu
 
 time.sleep(10)
 
-#se realiza un cambio
+#se otro cambio +
 
 #clase = "absolute w-100 h-100 z-1 hide-sibling-opacity"
 
